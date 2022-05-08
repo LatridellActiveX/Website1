@@ -1,23 +1,16 @@
-
-html{
+.wrapper, html, body {
     height: 100%;
-    width: 100%;
-}
-body{
-    min-height: 100vh;
-    min-width: 100vw;
+    margin: 0;
 }
 
 .wrapper{
     display: flex;
     flex-direction: column;
-    min-height: 100%;
-    min-width: 100%;
-    margin-bottom: 0px;
+    justify-content: stretch;
 }
 .head_container{
     background-color: #1F2937;
-    gap: 30vh;
+    gap: 26vh;
 
 }
 .header{
@@ -27,6 +20,8 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .logo{
@@ -47,7 +42,7 @@ li{
 .initial{
     display: flex;
     flex-direction: row;
-    gap: 30vw;
+    justify-content: space-evenly;
     align-items: center;
     padding-right: 5vw;
     padding-left: 5vw;
