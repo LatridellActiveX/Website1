@@ -1,0 +1,91 @@
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 100%;
+    margin-bottom: 0px;
+}
+.head_container{
+    background-color: #1F2937;
+    gap: 30vh;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 28vw;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB
+}
+li{
+    list-style: none;
+}
+
+.initial{
+    display: flex;
+    flex-direction: row;
+    gap: 30vw;
+    align-items: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.hero_text{
+    font-size:48px;
+    color:#F9FAF8
+}
+.InfoButton{
+    width: 40%;
+    align-self: left;
+}
+.image1{
+    background-color: darkgrey;
+}
+
+.mid_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    border-radius: 15px;
+    border-color: #3882F6;
+}
+
+.footer{
+    margin-bottom: 0px;
+}
