@@ -154,6 +154,14 @@ li{
     margin-right: 0px;
 }
 
+.four{
+    display: flex;
+    align-items: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px, 64px;
+
+}
 
 .footer{
     margin-bottom: 0px;
